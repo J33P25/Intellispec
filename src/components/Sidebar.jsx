@@ -30,8 +30,8 @@ export default function Sidebar({ dark, activeItem, setActiveItem }) {
       className={`flex flex-col h-screen sticky top-0 shrink-0 transition-all duration-300 border-r z-40 ${
         collapsed ? "w-[64px]" : "w-[240px]"
       } ${d
-        ? "bg-[#0f0f15] border-gray-800"
-        : "bg-[#EFEDE8] border-gray-200/70"
+        ? "bg-[#12121d] border-gray-800"
+        : "bg-[#f8f8f8] border-gray-200/70"
       }`}
     >
       <div className={`flex items-center h-[56px] px-4 border-b ${d ? "border-gray-800" : "border-gray-200/70"} ${collapsed ? "justify-center" : "justify-between"}`}>

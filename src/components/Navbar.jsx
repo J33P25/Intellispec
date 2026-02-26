@@ -7,10 +7,10 @@ export default function Navbar({ dark, setDark }) {
 
   return (
     <nav
-      className={`flex items-center justify-between px-8 py-4 border-b backdrop-blur-md sticky top-0 z-50 transition-colors duration-300 ${
+      className={`flex items-center justify-between px-8 py-4 backdrop-blur-md sticky top-0 z-50 transition-colors duration-300 ${
         d
-          ? "bg-[#0c0c12]/85 border-gray-800"
-          : "bg-white/80 border-gray-100"
+          ? "bg-[#0c0c12]/85"
+          : "bg-white/80 "
       }`}
     >
       {/* Logo */}

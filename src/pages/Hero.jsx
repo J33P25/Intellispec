@@ -221,11 +221,16 @@ export default function Hero() {
               </div>
             </div>
           </main>
-
-        {/* Footer */}
-        <footer className={`relative text-center py-8 text-xs transition-colors duration-300`}>
-            Intellispec 
-        </footer>
+            {/* Footer */}
+            <footer
+            className={`relative text-center py-9 text-xl border-t transition-colors duration-300 ${
+                d
+                ? "bg-[#0c0c12] text-gray-500 border-gray-800"
+                : "bg-[#F7F6F3] text-gray-500 border-gray-200"
+            }`}
+            >
+            Intellispec
+            </footer>
         </div>
       </div>
 
