@@ -12,8 +12,6 @@ const QUICK_ACTIONS = [
 const PLACEHOLDERS = [
   "Analyze my SRS for conflicts and ambiguities...",
   "Generate UML diagrams from my requirements...",
-  "Check NFR coverage against ISO/IEC 25010...",
-  "Build a traceability graph for my spec...",
 ];
 
 export default function Hero() {
